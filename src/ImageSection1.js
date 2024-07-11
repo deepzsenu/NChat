@@ -1,19 +1,20 @@
 import React from 'react';
-import img1 from './img1.png'; // Adjust the import based on your file structure
-import './ImageSection.css';
+import img2 from './img1.png'; // Adjust the import based on your file structure
+import './ImageSection1.css';
 
-const ImageSection1 = () => {
+const ImageSection2 = () => {
   return (
     <div className="image-section">
-      <img src={img1} alt="Section 1" className="image-section-img" />
+      <img src={img2} alt="Section 2" className="image-section-img" />
       <div className="image-section-content">
-        <h2>The best-performing Abandoned Checkout Journey in the World</h2>
+        <h2>Retarget Customers on WhatsApp wherever they drop off</h2>
         <p>
-          Are you getting the best possible conversion from your abandoned checkout? Use 2-way gamification, personalization, and WhatsApp checkout to instantly double abandoned cart revenue.
+          Spending crazy amounts of money to retarget website dropoffs? Capture first-party data and retarget users efficiently on WhatsApp. Leave it to us to effortlessly gather their phone numbers, from PDP to cart to checkout.
         </p>
       </div>
     </div>
   );
 };
 
-export default ImageSection1;
+export default ImageSection2;
+
