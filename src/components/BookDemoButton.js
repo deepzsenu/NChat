@@ -7,7 +7,7 @@ import arrowIcon from '../assets/svgexport-1.svg'; // Import the arrow SVG
 const BookDemoButton = () => {
   return (
     <Link to="/book-a-demo" className="book-demo-button">
-      Book a demo <img src={arrowIcon} alt="Arrow" className="arrow-icon" />
+      Book A Demo <img src={arrowIcon} alt="Arrow" className="arrow-icon" />
     </Link>
   );
 };

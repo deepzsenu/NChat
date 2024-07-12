@@ -2,8 +2,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from './NChat-logo.webp'; // Import the logo image
-import dropdownIcon from './svgexport-3.svg'; // Import the dropdown SVG
+import logo from './assets/NChat-logo.webp'; // Import the logo image
+import dropdownIcon from './assets/svgexport-3.svg'; // Import the dropdown SVG
 import BookDemoButton from './components/BookDemoButton'; // Import the reusable button component
 
 const Navbar = () => {

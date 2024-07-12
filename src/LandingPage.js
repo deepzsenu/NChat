@@ -1,9 +1,9 @@
 import React from 'react';
 import './LandingPage.css';
-import landingImage from './landingpage.png'; // Import the landing page image
+import landingImage from './assets/landingpage.png'; // Import the landing page image
 import BookDemoButton from './components/BookDemoButton'; // Import the reusable button component
-import ImageSection1 from './ImageSection1'; // Import the new image section component
-import ImageSection2 from './ImageSection2'; // Import the new image section component
+import ImageSection1 from './components/ImageSection1'; // Import the new image section component
+import ImageSection2 from './components/ImageSection2'; // Import the new image section component
 
 const LandingPage = () => {
   return (
