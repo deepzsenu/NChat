@@ -4,6 +4,7 @@ import landingImage from './assets/landingpage.png'; // Import the landing page 
 import BookDemoButton from './components/BookDemoButton'; // Import the reusable button component
 import ImageSection1 from './components/ImageSection1'; // Import the new image section component
 import ImageSection2 from './components/ImageSection2'; // Import the new image section component
+import ImageCarousel from './components/crousal/c.jsx';
 
 const LandingPage = () => {
   return (
@@ -76,6 +77,7 @@ const LandingPage = () => {
       {/* Add the new image sections below the marquee */}
       <ImageSection1 />
       <ImageSection2 />
+      <ImageCarousel/>
     </div>
   );
 };
